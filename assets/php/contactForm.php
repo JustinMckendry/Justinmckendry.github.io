@@ -1,7 +1,7 @@
 <?php
-
+// Page code serveur : c'est executé depuis le serveur
 	// Contact
-	$to = 'you@yourmail.com';
+	$to = 'justmckendry@hotmail.com';
     $subject = 'Subject here...';
 
 	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
